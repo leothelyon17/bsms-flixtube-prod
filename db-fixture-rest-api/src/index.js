@@ -15,7 +15,7 @@ const app = express();
 
 const fixturesDirectory = process.env.FIXTURES_DIR || "fixtures";
 const port = process.env.PORT || 3555;
-const databaseHost = process.env.DBHOST || "mongodb://localhost:27017";
+const databaseHost = process.env.DBHOST || "mongodb://172.18.23.71:27017";
 console.log("Using DBHOST " + databaseHost);
 
 //
